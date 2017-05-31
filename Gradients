@@ -3,4 +3,9 @@ gradients {
   background-image: linear-gradient(#ffa949, firebrick);
   background-image: linear-gradient(to left, #ffa949, firebrick);
   background: linear-gradient(to bottom, blue, white 80%, orange);
+  background: linear-gradient(#ffa949, transparent 90%),
+    #ffa949 url(‘../img/mountains.jpg’) no-repeat center;
+  background: linear-gradient(#ffa949, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+    #ffa949 url(‘../img/mountains.jpg’) no-repeat center;
 }
