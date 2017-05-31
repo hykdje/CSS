@@ -2,3 +2,13 @@ float {
   float: right;
   float: left;
 }
+
+.group:after {
+content: “”;
+display: table;
+clear: both;
+}
+
+.overflow {
+overflow: auto;
+}
