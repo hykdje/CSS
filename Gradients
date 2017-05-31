@@ -1,0 +1,5 @@
+gradients {
+background-image: linear-gradient(#ffa949, firebrick);
+background-image: linear-gradient(to left, #ffa949, firebrick);
+background: linear-gradient(to bottom, blue, white 80%, orange);
+}
