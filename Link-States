@@ -1,0 +1,22 @@
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* only applied to interactive elements like links, buttons and form elements */
+
+a:focus {
+  color: white;
+  background-color: orange;
+}
