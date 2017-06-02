@@ -1,1 +1,67 @@
+/* 100% turns font to 16px */
 
+body { 
+font-size: 100%
+}
+
+.p1 {
+font-size: 1rem
+
+
+
+
+/* YJ Measurements */
+
+div max width: 960px
+image width: 100%
+
+
+
+
+
+
+/* Pixels: */
+h1 {
+font-size: 26px;
+}
+
+
+
+
+
+
+
+/* Percents: */
+h1 { 
+font-size: 75%;
+}
+
+
+
+
+
+
+/* Em:
+1em=16px
+2em=32px
+pixel size/16 = _em
+1.625em - 26/16 */ 
+
+h1 {
+font-size: 1.625px;
+}
+
+h1 {
+font-size: 
+
+
+
+
+
+
+/* Rem: 
+root of 16px element rule*/ 
+
+h1 { 
+font-size:1.625rem;
+}
