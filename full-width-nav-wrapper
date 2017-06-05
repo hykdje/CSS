@@ -1,0 +1,14 @@
+full-width nav/footer - centered wrapper content page
+
+
+HTML nav: 
+<div class=“container”>…</div>
+HTML content:
+<div class=“container”>…</div>
+HTML footer:
+<div class=“container”>…</div>
+
+.container {
+width: 70%;
+margin: 0 auto;
+}
