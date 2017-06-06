@@ -1,0 +1,13 @@
+columns
+
+<primary col>
+<secondary col>
+
+.col {
+display: inline-block;
+width: 50%;
+margin-right: -4px;
+vertical-align: top;
+padding-left: 1em;
+padding-right: 1em;
+}
