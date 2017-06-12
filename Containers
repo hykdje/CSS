@@ -1,0 +1,14 @@
+/* HTML 
+<div class=“container”>
+	<div class=“primary col”>
+*/
+
+.main-header {
+padding-top: .5em;
+padding-bottom: .5em;
+}
+
+.banner {
+color: #fff;
+background: #3acec2;
+}
