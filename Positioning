@@ -1,0 +1,19 @@
+.css {
+position: absolute; 
+position: relative; 
+}
+
+/* full page top nav */
+.main-header {
+position: fixed;
+width: 100%;
+}
+
+.body {
+padding-top: 68px;
+}
+
+
+/* stacking order z-index */
+
+z-index: 1;
