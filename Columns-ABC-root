@@ -1,0 +1,41 @@
+<body>
+<div id=“container”>.
+<nav>
+<a href=“#col-a”>Column A</a>
+<a href=“#col-b”>Columb B</a>
+<a href=“#col-c”>Column C</a>
+</nav>
+<div class=“row group”>
+<div id=“col-a” class=“col”>
+<h2>Column A</h2>
+<p>text here</p>
+</div>
+<div id=“col-b” class=“col”>
+<h2>Column B</h2>
+<p>text here</p>
+</div>
+<div id=“col-c” class=“col”>
+<form>
+<h2>Column C</h2>
+
+<label for=“name”>Name:</label>
+<input type=“text” id=“name”>
+
+<input class=“ben” type=“submit” value=“Sign up”>
+</form>
+</div>
+
+:root {
+background: white;
+}
+
+:target {
+background: #384047;
+color: white;
+}
+
+#col-c:target {
+background: #eff1f2;
+color: initial;
+box-shadow: 0 0 6px rgba(0,0,0,.2);
+}
