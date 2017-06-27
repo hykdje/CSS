@@ -67,3 +67,56 @@ transition: border-color .6s;
 .form-input:focus {
 border-color: #52bab3;
 }
+
+transition-delay: .2s, .3s, 0s;
+
+—
+
+.button {
+opacity: 0;
+transition-property: opacity, background, box-shadow;
+transition-duration: .5s;
+transition-delay: .2s, .3s, 0s;
+}
+
+.button:hover {
+background: red;
+box-shadow: 0 0 0 3px red;
+}
+
+.photo-overlay:hover .button {
+opacity: 1;
+}
+
+
+/* Timing Speed & Easing Effects */
+
+transition-timing-function: ease-out;
+
+transition-timing-function: ease-in-out;
+
+/* Transition Shorthand */
+
+transition: opacity .5s ease-out, background: .4s ease-out;
+transition: all .5s;
+transform: translateX(-150px);
+
+/* Other Transformations */
+transform: scale(1.3);
+transform-organ: 0 0;
+cubic-bezier
+
+/* Img Hover Transition with Card */
+
+img {
+transition: transform .5s;
+transform-origin: 100% 100%;
+}
+
+.img:hover {
+transform: rotate(360deg);
+}
+
+.img:hover {
+transform: scale(1.2);
+}
